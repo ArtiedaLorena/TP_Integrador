@@ -1,0 +1,71 @@
+
+
+
+#fondo {
+	background-image: url(./images/ba1.jpg);
+	padding: 300px 75px;
+    display:inline-block;
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+    
+}
+
+#fondo:before {
+	content:'';
+	position: absolute;
+    display: inline-block;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+
+.col-6{
+    color:white;
+    filter:contrast();
+    text-align:end;
+    
+
+}
+#nav-titulo{
+    text-align: end;
+}
+
+.title-cards{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn-warning{
+    font-size: 5px;
+    padding:0%;
+}
+
+.card-title{
+    margin-top: -15px;
+}
+
+#img-honolulu{
+    width: 100%;
+    
+} 
+
+.titulo-form{
+    text-align: center;
+    margin-top:20px;
+}
+
+u.dotted{
+    border-bottom: 1px dashed #999;
+    text-decoration: none; 
+  }
+
+  .aclaracion{
+    color:#999;
+    text-align:start;
+  }
